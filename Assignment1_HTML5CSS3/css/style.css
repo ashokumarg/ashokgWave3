@@ -1,0 +1,206 @@
+body{
+  margin: auto;
+}
+nav {
+  background: black;
+  float: right;
+  position: fixed;
+}
+.wrap img{
+  width: 100px;
+  height: 100px;
+    position: fixed;
+}
+ nav li {
+          display: inline;
+        }
+        nav li a{
+                    text-decoration-line: none;
+                     color: white;
+                     font-size: 12px;
+                       margin: 50px 0;
+
+               }
+        nav li a:hover{
+              color: #1ABC9C;
+             }
+             header {
+               background: white;
+
+                }
+
+
+ .primary{
+   background: #e3e3e3;
+   width: auto;
+   height: 150px;
+   margin: auto;
+ }
+
+.primary h1{
+  margin-left: 350px;
+      }
+
+.primary p{
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+
+
+.core{
+  margin-top: 50px;
+}
+
+.core section h4{
+  margin-top: 25px;
+}
+
+
+
+.config{
+  background: #e3e3e3;
+  width: auto;
+  height: auto;;
+  margin: auto;
+}
+
+.config h1{
+  text-align: center;
+}
+
+.config .imp{
+  font-size: 22px;
+  text-align: center;
+}
+.config img{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+
+
+}
+.config .num{
+  color: #1ABC9C;
+  font-size: 40px;
+
+}
+
+.choice {
+  margin-left: 15%;
+  margin-right: 5%;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.net{
+    margin-top: 7%;
+}
+.net img{
+  height: 50%;
+}
+
+.circle{
+    margin-top: 5%;
+}
+.base{
+  margin-top: 7%;
+  background-color: rgb(26, 188, 156);
+  height: 100px;
+}
+.base p{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.base b{
+  text-decoration-line: underline;
+}
+.bottom{
+
+    background-color: rgb(51, 51, 51);
+
+  width: 100%;
+}
+.bottom p{
+  color: white;
+}
+.bottom h3{
+  color: white;
+}
+
+.bottom img{
+  width: 150px;
+  height: 150px;
+}
+.bottom section{
+
+  margin-left: 7%;
+}
+footer{
+    background-color: black;
+  height: 10%;
+}
+footer p{
+  color: white;
+  text-align: center;
+}
+
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: black;
+}
+ul.tab li {float: left;}
+ul.tab li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.tab li a:hover {background-color: #ddd;}
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .tabcontent img{
+      width:200px;
+      height: 200px;
+    }
+
+  .show {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .show img{
+    width:250px;
+    height: 200px;
+  }
+
+
+  footer{
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+  }
+  ul.unstyled{
+    list-style: none;
+    padding: 0;
+  }
